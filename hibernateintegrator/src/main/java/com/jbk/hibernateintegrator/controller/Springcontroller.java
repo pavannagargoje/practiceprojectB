@@ -22,6 +22,7 @@ public class Springcontroller {
 		List<Customer> list=spservice.getcustomer();
 		
 		System.out.println("employee added");
+		System.out.println("unitetesting done");
 		
 		return list;
 	}
