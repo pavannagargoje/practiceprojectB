@@ -20,6 +20,9 @@ public class Springcontroller {
 	public List<Customer> getcustomer() {
 		
 		List<Customer> list=spservice.getcustomer();
+		
+		System.out.println("employee added");
+		
 		return list;
 	}
 }
